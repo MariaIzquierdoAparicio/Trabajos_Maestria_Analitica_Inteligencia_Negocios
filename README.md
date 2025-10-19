@@ -13,23 +13,23 @@ Repositorio de los trabajos realizados por **María Fernanda Izquierdo Apari
 - `Sistemas de Recomendacion/`
 - `Support Vector Machines/`
 
-> **Tecnologías usadas en el repo (según GitHub):** Jupyter Notebook, HTML, R y un poco de Python.
+> **Tecnologías usadas en el repo:** Jupyter Notebook, HTML, R y Python.
 
 ---
 
 ## 🧭 Guía detallada por carpeta
 
-### 1) `Analisis de Clusters/`
+### 1) `Análisis de Clusters/`
 - Notebooks/cuadernos con experimentos de **agrupamiento** (k‑means, jerárquico, etc.).
 - Limpieza de datos, selección/estandarización de variables, y visualizaciones de grupos.
 - Métricas típicas: **inercia**, **silhouette**, dendrogramas.
 
-### 2) `Comparacion Modelos (KNN, SVM, Adaboost, RandomForest, CNN)/`
+### 2) `Comparación Modelos (KNN, SVM, Adaboost, RandomForest, CNN)/`
 - Comparativas de clasificadores clásicos (**KNN, SVM, AdaBoost, Random Forest**) y una referencia **CNN**.
 - División entrenamiento/validación, **matriz de confusión**, **ROC/AUC**, precisión/recall/F1.
 - Tablas y gráficos de performance para escoger el modelo ganador.
 
-### 3) `Comparacion Modelos (SVM, Reg Logistica, KNN, Random Forest, AdaBoost)/`
+### 3) `Comparación Modelos (SVM, Reg Logistica, KNN, Random Forest, AdaBoost)/`
 - Otra comparativa centrada en **SVM, Regresión Logística, KNN, Random Forest y AdaBoost**.
 - Enfoque en **tuning de hiperparámetros** y trade‑offs de interpretabilidad vs. desempeño.
 - Reportes de métricas y curvas de validación.
@@ -44,17 +44,17 @@ Repositorio de los trabajos realizados por **María Fernanda Izquierdo Apari
 - Ciclos de entrenamiento y gráficos de **loss/accuracy**.
 - Ejemplos de cómo guardar y cargar modelos.
 
-### 6) `Regresion Lineal/`
+### 6) `Regresión Lineal/`
 - Modelos de regresión lineal con análisis de **supuestos** (normalidad, homocedasticidad, multicolinealidad).
 - **Diagnóstico de residuos**, intervalos de confianza, interpretación de coeficientes.
 - Visualizaciones de ajuste y error.
 
-### 7) `Regresion Logistica/`
+### 7) `Regresión Logistica/`
 - Clasificación binaria con **regresión logística**.
 - Reportes de **odds ratios**, matrices de confusión y **curvas ROC**.
 - Discusión de **umbral de decisión** y calibración.
 
-### 8) `Sistemas de Recomendacion/`
+### 8) `Sistemas de Recomendación/`
 - Prototipos de **recomendadores**: filtrado colaborativo y basado en contenido.
 - Cálculo de similitud, construcción de perfiles de usuario/item, y **validación cruzada**.
 - Métricas: **RMSE/MAE** (rating), **precision@k / recall@k** (ranking).
